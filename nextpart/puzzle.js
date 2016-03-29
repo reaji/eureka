@@ -58,21 +58,21 @@ function onKeyDown(event) {
     deltaColumn = 0;
     switch (event.keyCode) {
         case 39: // Left Arrow
+            keyTimer();
             deltaColumn = -1;
             break;
 
         case 40: // Up Arrow
+            keyTimer();
             deltaRow = -1;
             break;
             
         case 37: // Right Arrow
-            keyTimer();
             deltaColumn = +1;
             break;
             
         case 38: // Down Arrow
             deltaRow = +1;
-            keyTimer();
             break;
             
     }

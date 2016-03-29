@@ -78,6 +78,8 @@ function onKeyDown(event) {
             
     }
 
+    keyTimer();
+
     
     // Look at the location we want to move to. if it's out of bounds or
     // there's a wall, cancel the move.
