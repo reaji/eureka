@@ -6,7 +6,7 @@ var gameTime, dt;
 var mousePosition;
 
 function fwSetup() {
-    renderer = PIXI.autoDetectRenderer(2000, 770);
+    renderer = PIXI.autoDetectRenderer(1080, 770);
     renderer.backgroundColor = 0xFFFFFF;
     renderer.view.id = 'fwcanvas';
 
